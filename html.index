@@ -8,7 +8,6 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@700&family=Montserrat:wght@400;600&display=swap');
-        
         body { margin: 0; padding: 0; background: #000; color: #fff; font-family: 'Montserrat', sans-serif; text-align: center; overflow-x: hidden; }
         header { padding: 80px 20px; background: linear-gradient(to bottom, #000, #001122); }
         .logo { width: 350px; max-width: 90%; margin: 20px auto; filter: drop-shadow(0 0 20px #00ffff); animation: pulse-logo 1.5s infinite; }
@@ -65,9 +64,9 @@
 
         <h2 class="neon-red">¡Únete gratis al waitlist beta!</h2>
         <p>Los primeros 10.000 reciben <strong>500 PIDs gratis</strong> al lanzar.</p>
-        <p><strong>Ya en el waitlist: 0</strong> (¡actualízalo cuando lleguen los primeros!)</p>
+        <p><strong>Ya en el waitlist: 0</strong> (¡actualiza cuando lleguen!)</p>
 
-        <form action="TU_FORMSPREE_ENDPOINT_AQUI" method="POST">
+        <form action="https://formspree.io/f/TU_FORMSPREE_ENDPOINT" method="POST">
             <input type="email" name="email" placeholder="Tu email" required>
             <input type="text" name="ciudad" placeholder="Tu ciudad (opcional)">
             <button type="submit" class="btn">¡Quiero entrar en la beta!</button>
